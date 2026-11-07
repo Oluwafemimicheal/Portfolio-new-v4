@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <header>
-      <nav className={`${flexStyle} w-340 mx-auto py-5`}>
+      <nav className={`${flexStyle} w-300 mx-auto py-5`}>
         <div className='w-20'>
           <img src={Logo} alt="logo"/>
         </div>
