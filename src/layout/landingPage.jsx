@@ -1,3 +1,4 @@
+import Footer from "@/components/landing-page/Footer"
 import Navbar from "@/components/landing-page/Navbar"
 import { Outlet } from "react-router-dom"
 
@@ -6,6 +7,7 @@ const LandingPage = () => {
     <div>
       <Navbar/>
       <Outlet/>
+      <Footer />
     </div>
   )
 }
