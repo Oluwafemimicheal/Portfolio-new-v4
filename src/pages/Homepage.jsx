@@ -1,3 +1,4 @@
+import Contact from "@/components/landing-page/Contact"
 import Faq from "@/components/landing-page/Faq"
 import Hero from "@/components/landing-page/Hero"
 import Product from "@/components/landing-page/Product"
@@ -10,6 +11,7 @@ const Homepage = () => {
       <Product/>
       <WorkFlow/>
       <Faq />
+      <Contact />
     </div>
   )
 }

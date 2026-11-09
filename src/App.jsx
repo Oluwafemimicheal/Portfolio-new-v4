@@ -4,7 +4,7 @@ import Homepage from "./pages/Homepage"
 
 const App = () => {
   return (
-    <div className="overflow-x-hidden">
+    <div className="lg:overflow-x-hidden">
      <Routes>
         <Route element={<LandingPage />}>
           <Route index path="/" element={<Homepage />} />

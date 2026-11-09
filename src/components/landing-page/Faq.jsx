@@ -36,14 +36,15 @@ const faq = [
 
 const Faq = () => {
   return (
-    <section className="py-20 ">
-      <div className="w-300 mx-auto flex justify-between gap-5 h-160">
+    <section className="py-20" id="faq">
+      <div className="px-5 lg:px-0 lg:w-300 mx-auto flex lg:flex-row flex-col justify-between gap-5 h-160">
 
-        <div className="w-full grow flex flex-col justify-between h-full">
-          <div className="grow space-y-2">
-            <div className="inline-flex items-center gap-2"><div className="w-2 h-2 rounded-full bg-accent-foreground"></div>Unique products flow</div>
-            <h2 className="text-3xl font-bold">FAQ'<span className="text-xl">S</span></h2>
+        <div className="w-full lg:grow flex flex-col justify-between lg:h-full">
+          <div className="lg:grow lg:space-y-2">
+            <div className="inline-flex items-center gap-2 mb-3 lg:mb-0"><div className="w-2 h-2 rounded-full bg-accent-foreground"></div>Unique products flow</div>
+            <h2 className="text-lg lg:text-3xl font-bold">FAQ'<span className="text-xl">S</span></h2>
           </div>
+
           <div>
             <p>Have questions about working together? Here are some quick answers to help you understand my process, service, and what
               you can expect.
@@ -53,9 +54,9 @@ const Faq = () => {
 
 
         <div className="w-full">
-          <div className="flex items-center justify-end gap-2"><span className="w-2 h-2 rounded-full bg-accent-foreground"></span>Most Common Questions</div>
+          <div className="hidden lg:flex items-center justify-end gap-2"><span className="w-2 h-2 rounded-full bg-accent-foreground"></span>Most Common Questions</div>
 
-          <div className="mt-20">
+          <div className="lg:mt-20 mt-5">
             <Accordion defaultValue={["kind"]} className="max-w-xl space-y-2">
               {
                 faq.map((info, index) => (
